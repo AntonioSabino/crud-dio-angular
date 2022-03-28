@@ -26,6 +26,6 @@ export class TodoItemComponent implements OnInit {
   }
 
   markAsDone(): void {
-    this.done = true;
+    this.done = !this.done;
   }
 }
